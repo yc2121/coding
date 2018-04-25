@@ -1,0 +1,23 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+.icon {
+  width: 60px;
+}
+.thisOne {
+  display: inline-block;
+  line-height: 60px;
+  vertical-align: top;
+}
+.thatOne {
+  width: 400px;
+  height: 60px;
+  vertical-align: top;
+  line-height:60px;
+  background-color: darkblue;
+  color: whitesmoke;
+  position: relative;
+  top: -20px;
+}

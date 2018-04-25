@@ -2,22 +2,12 @@
 	margin:  0px;
 	padding: 0px;
     color: silver;
-    /* overflow: auto; */
+    overflow: auto;
     box-sizing: border-box;
 	/* border: 1px solid black; */
 }
-.stick2top {
-    position: fixed;
-    top: 0;
-    width: 100%
-  }
-  .stick2bottom {
-    position: fixed;
-    bottom: 0;
-    width: 100%
-  }  
-.board {
-    height: 400px;
+body {
+    width: 1280px;
     background-color: slategray;
 }
 .nav {
