@@ -6,6 +6,13 @@
     box-sizing: border-box;
 	/* border: 1px solid black; */
 }
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background: silver;
+    font-size: 14px;
+}
 .stick2top {
     position: fixed;
     top: 0;

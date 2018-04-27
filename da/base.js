@@ -1,5 +1,23 @@
 "use strict";
+// **** jQuery *****
+$(document).ready(function(){
+	$('body').on(function(){
+		alert("You are with the <body></body> element");
+	})
+	$('body').click(function(){
+		alert("You just clicked.");
+	})
+	//GETTER
+	$('h1').click(function(){
+		console.log('h1');
+	})
+	//SETTER
+	$('h1').click(function(){
+		$('h1').text('jQuery set this.');
+	})
+});
 
+// **** JavaScript *****
 function sampleFunction (arr) {
 
   for(var i=0;i<arr.length;i++)
