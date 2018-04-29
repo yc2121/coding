@@ -1,0 +1,7 @@
+change the following:
+
+from the original:
+if(character_counter == words[word_counter].length)
+
+to
+if(character_counter > words[word_counter].length)
