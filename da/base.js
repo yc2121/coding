@@ -2,7 +2,7 @@
 // **** jQuery *****
 $(document).ready(function(){
 	$('body').on(function(){
-		alert("You are with the <body></body> element");
+		console.log("You are with the <body></body> element");
 	})
 	$('body').click(function(){
 		alert("You just clicked.");
